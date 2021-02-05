@@ -1,0 +1,1 @@
+for %%i in (./processed_cn_txt/*.txt) do java -jar tercom.7.25.jar -r processed_cn_txt/refs/refs.txt -h processed_cn_txt/%%i > processed_cn_txt/result/out-%%i
